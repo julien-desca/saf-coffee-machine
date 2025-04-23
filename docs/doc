@@ -1,0 +1,29 @@
+SAF coffee machine - A useless python coffee machine
+
+# 1. presentation
+
+SAF (Stupid as f**k) coffee machine, is a useless software emulating a coffee machine made for playing around with python and Qt
+
+key features : 
+- warm drink commands
+- paying in cash or credit card
+- coffee, milk, tea and sugar stock verification
+- "maintenance mode", allow authenticated user to refill stock and retrieve money fro machine
+- change management
+
+# 2. maquettes (comment on dit en anglais ?)
+
+# 3. Technical requirements
+
+The software must be easy to download and lunch. For the V1, there will not be any kind of persistence.
+
+# feature description
+
+1. command a warn drink (Free version)
+
+For the beggining, the order will be free (no money management). When customer order a warn drink
+1. The customer push a button
+2. The system will retrieve the recipe, check of there is enougth ingredient left in the machine
+3. The system update the ingredient stock
+4. The system deliver the drink.
+5. The system will check all the recipe of warm drink to see if there is enought ingredient to make it. I don't, the recipe is made unavaible
